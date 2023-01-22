@@ -62,7 +62,7 @@ app.delete("/featureds/:id", (req, res) => {
   });
 mongoose.set("strictQuery", false);
 mongoose.connect(
-   `mongodb+srv://sahar:sssaaa111@cluster0.opkcbok.mongodb.net/coursess`,
+   ``,
 (error) => {
     if (!error) {
       app.listen(port, () => {
